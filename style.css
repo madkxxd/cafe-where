@@ -1,0 +1,79 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #acd9f9;
+    
+}
+
+#main {
+    text-align: center;
+    padding: 100px;
+    color: rgb(0, 0, 0);
+}
+
+    .hero-section {
+        /* Example: Background image or color for the hero section */
+        background-image: url('path/to/your/image.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 400px; /* Adjust as needed */
+        display: flex;
+        align-items: center; /* Vertically center content */
+        justify-content: center; /* Horizontally center content */
+        color: white; /* Text color for contrast */
+        text-align: center;
+    }
+
+    .hero-text h1 {
+        font-size: 5vw; /* Responsive font size based on viewport width */
+        font-weight: bold;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Optional: Text shadow */
+    }
+
+    .hero-text-container p {
+        font-size: 2vw;
+        line-height: 1.5;
+        max-width: 800px; /* Control text width */
+        margin: 0 auto;
+    }
+
+.hero-section {
+display: flex;
+justify-content: center; /* Center horizontally */
+align-items: center; /* Center vertically */
+min-height: 500px; /* Example height for the hero section */
+background-image: url('your-hero-image.jpg'); /* Optional background image */
+background-size: cover;
+background-position: center;
+}
+
+.hero-section {
+  position: relative; /* Parent must be relative for absolute positioning of children */
+min-height: 500px;
+background-image: url('your-hero-image.jpg');
+background-size: cover;
+background-position: center;
+}
+
+.hero-section {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%); /* Centering trick */
+width: 80%; /* Adjust as needed */
+}
+
+.hero-section h1 {
+text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+.hero-section h1 {
+-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: black;
+}
+
+.hero-section h1 {
+      font-size: 8vw; /* Scales with viewport width */
+    }
+
