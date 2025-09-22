@@ -57,7 +57,7 @@ background-size: cover;
 background-position: center;
 }
 
-.hero-section {
+.hero-content {
 position: absolute;
 top: 50%;
 left: 50%;
@@ -65,15 +65,14 @@ transform: translate(-50%, -50%); /* Centering trick */
 width: 80%; /* Adjust as needed */
 }
 
-.hero-section h1 {
-text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+.buttons1 {
+background-color: bisque;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease;
 }
-.hero-section h1 {
--webkit-text-stroke-width: 1px;
--webkit-text-stroke-color: black;
+.buttons1:hover {
+background-color: #f0a500;
 }
-
-.hero-section h1 {
-      font-size: 8vw; /* Scales with viewport width */
-    }
-
